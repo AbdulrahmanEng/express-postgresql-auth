@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+label,
+input {
+  display: block;
+  margin: 10px 0;
+}
+
+a {
+  color: black;
+}
+
+.flash {
+  background-color: #aaaaff;
+  color: #0505ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}

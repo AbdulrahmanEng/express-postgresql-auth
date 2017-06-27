@@ -1,0 +1,14 @@
+<%- include('../header'); %>
+  <h1><%= title %></h1>
+  <% if (flash) { %>
+      <h4 class="flash"><%= flash.message %></h4>
+    <% } %>
+    <form class="form" action="/register" method="post">
+      <label for="username">Username</label>
+      <input type="text" name="username" required>
+      <label for="password">Password</label>
+      <input type="password" name="password" required>
+      <button class="btn btn-register" type="submit">Sign Up</button>
+      <button class="btn btn-login"><a href="/login">Log In</a></button>
+    </form>
+<%- include('../footer'); %>
